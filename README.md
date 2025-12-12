@@ -18,17 +18,24 @@ Usage: `"extends": ["github>c-gerke/renovate-config:add-labels"]`
 Included in default: Yes
 
 
-## rangeStrategy / pinDigests
-Adds a default range strategy of "pin". This causes Renovate to create PRs that update dependencies to specific versions or SHA hashes where possible to ensure the most reproducible builds.
-
-Usage: `"rangeStrategy": "pin"` and `"pinDigests": true`
-
-Included in default: Yes
-
-
 ## auto-merge-only-minor-updates
 Automatically merge minor and patch updates, but not major updates.
 
 Usage: `"extends": ["github>c-gerke/renovate-config:auto-merge-only-minor-updates"]`
 
 Included in default: No
+
+
+## rangeStrategy / pinDigests
+Adds a default range strategy of "pin". This causes Renovate to create PRs that update dependencies to specific versions or SHA hashes where possible to ensure the most reproducible builds.
+
+Usage: `"extends": ["github>c-gerke/renovate-config"]`
+
+Included in default: Yes
+
+## dependencyDashboard
+Enables the dependency dashboard feature of Renovate for each repo using this preset.
+
+Usage: `"extends": ["github>c-gerke/renovate-config"]`
+
+Included in default: Yes
