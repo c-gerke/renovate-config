@@ -4,5 +4,6 @@
         "c-gerke/renovate-config:add-labels"
     ],
     "rangeStrategy": "pin",
+    "pinDigests": true,
     "timezone": "America/Chicago"
 }
