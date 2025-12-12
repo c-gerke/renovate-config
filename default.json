@@ -1,0 +1,8 @@
+{
+    "extends": [
+        "config:best-practices",
+        "c-gerke/renovate-config:add-labels"
+    ],
+    "rangeStrategy": "pin",
+    "timezone": "America/Chicago"
+}
